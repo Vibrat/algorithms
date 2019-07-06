@@ -9,11 +9,14 @@ Solution
 In solving this problem there are two cases we need to consider which are 
     - If we can find a optimal subsystem to solve this
     - If there are other but no optimal subsystem to solve this.
+
 This two cases would lead to
     - When target is smaller than a bag => find an optimal subsystem for the suitable bag
     - When target is equal or bigger => find an optimla subsystem for the suitable bag and
       compare with a solution of putting a portion of weights into the current bags and find the rest of weights
       in optimal subsystem
+
+@TimeComplexity O(2^n)
 """
 
 def knapsack_function(index, weights, values, target):
