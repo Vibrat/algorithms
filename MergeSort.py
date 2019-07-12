@@ -12,6 +12,12 @@ data = [ 1 , 3, 2, 6 , 11, 11, 2300, 42  ]
 
 
 def merge_sort(data):
+    """
+    Merge Sort Implimentation
+
+    - Time Complexity: O(Nlog(N))
+    - Space Complexity: O(N)
+    """
     ## print (len(data))
     if len(data) < 2:
         return data

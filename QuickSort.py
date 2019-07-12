@@ -13,6 +13,13 @@ data = [1, 8, 4, 2, 6, 7, 3, 4, 5]
 
 
 def quick_sort(data):
+    """
+    Quick Sort Implementation
+
+    - Time Complexity O(Nlog(N)) on average, and O(N2) for worst case
+    - Space Complexity (Log(N))
+    """
+
     length = len(data)
     return quick_sort_processing(data, 0, length -1)
     
